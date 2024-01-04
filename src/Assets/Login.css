@@ -1,7 +1,6 @@
-.page{
+.page1{
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -9,21 +8,23 @@
     min-height: 100vh;
     background-image:linear-gradient(indigo,white);
 }
-.container{
-  width:min-content;
+.container1 {
   display: flex;
-  max-width: 300px;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
   background: #fff;
+  background-size: 200px;
   border-radius: 15px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
+
 .login{
-  width: 300px;
+  width:50%;
 }
 form{
-  width: 100%;
-  max-width: 350px;
-  margin: 60px auto;
+  width: 250px;
+  margin: 60px;
 }
 h1{
   margin: 20px;

@@ -7,8 +7,8 @@ export default function SignUp(){
     const navigate=useNavigate();
     const loginButton=()=>{navigate("/")}
     return(
-        <div class="page">
-        <div class="container">
+        <div class="page2">
+        <div class="container2">
             <div class="login">
                 <form>
                     <h1>Sign Up</h1>
@@ -33,7 +33,7 @@ export default function SignUp(){
                     </p>
                 </form>
             </div>
-            <div class="pic">
+            <div class="pic2">
             <img src={inventory1}/>
             </div>
         </div>
