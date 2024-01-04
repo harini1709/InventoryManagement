@@ -11,7 +11,6 @@ function App() {
         <Route path="/" element=<Login/> ></Route>
         <Route path="/signup" element=<SignUp/> ></Route>
         <Route path="/land" element=<LandingPage/> ></Route>
-        <Route path="/dash" element=<Dashboard/> ></Route>
       </Routes>
       </BrowserRouter>
     </div>
